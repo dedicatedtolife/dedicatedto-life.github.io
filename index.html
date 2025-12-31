@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dedicated to Life | Cosmetic & General Dentistry Austin</title>
+
+<!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-yI1dMd+P3XpRsu4o7K09qH+6nGxy4R9+G/azB0IjJjLPX3FvXl5+Xk1P7UAGMLC2HgHwh+hyhYFQvUfnYxjE0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Hero */
+.hero {
+    background: url('https://lh3.googleusercontent.com/sitesv/AAzXCkdsEYNkEgI9cq0v2Tu3r8yEHRRYwhti5SywqlHZGbWRKo9-ORCwbYrLgEln-1ddNNCmor2u6a--BQpegbiHnYcKWPjk01UxqQtbSPtyhUjigLgftoPAyEdE9rSz_Jf3S6E4xge4nOk5Vt_smhenOytZ3pxh8e812aDZLYteXj6iv7K4wpetXL7bmu-PeN_TfnvDICn5R3oh7CziFvzLEAlFWAx9OYq04dy3x1Y=w1280') center/cover no-repeat;
+    padding: 120px 20px;
+    text-align: center;
+    color: black;
+}
+.hero-overlay {
+    background: rgba(255,255,255,0.85);
+    display: inline-block;
+    padding: 80px 40px;
+    border-radius: 16px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hero a.cta-button {
+    background: linear-gradient(90deg, #d4af37, #ffdd88);
+    color: #000;
+    font-weight: 600;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.hero a.cta-button:hover { opacity:0.9; }
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+h2 { font-size: 36px; margin-bottom:25px; color:#0a0a0a; }
+h3 { font-size: 24px; margin-bottom:15px; }
+p { font-size:16px; color:#444; margin-bottom:20px; line-height:1.7; }
+.highlight { color:#d4af37; font-weight:600; }
+
+/* Services */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+.service-card {
+    background:#fff;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+    text-align:center;
+}
+.service-card:hover { transform:translateY(-5px); }
+.service-card img { width:100%; border-radius:12px; margin-bottom:15px; }
+
+/* Why Choose Us */
+.why-choose-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:25px;
+    margin-top:40px;
+}
+.why-card {
+    background:#fff;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    text-align:center;
+    transition:transform 0.3s;
+}
+.why-card i { font-size:40px; color:#d4af37; margin-bottom:15px; }
+.why-card:hover { transform:translateY(-5px); }
+
+/* Benefits */
+.benefits-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:25px;
+}
+.benefit-card {
+    background:#fff;
+    padding:20px;
+    border-radius:16px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+/* Testimonials */
+.testimonials-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    gap:30px;
+}
+.testimonial-card {
+    background:#fff;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.1);
+    text-align:center;
+}
+.testimonial-card img {
+    width:80px; height:80px; border-radius:50%; margin-bottom:15px; object-fit:cover;
+}
+
+/* Map */
+.map-container { width:100%; height:420px; margin:30px 0; border-radius:16px; overflow:hidden; box-shadow:0 20px 40px rgba(0,0,0,0.2); }
+
+/* CTA */
+.cta-section { text-align:center; margin:60px 0; }
+.cta-section a { background: linear-gradient(90deg, #d4af37, #ffdd88); color:#000; font-weight:600; padding:16px 32px; border-radius:50px; text-decoration:none; transition:0.3s; }
+.cta-section a:hover { opacity:0.9; }
+
+/* Footer */
+.footer { background:#0a0a0a; color:#fff; padding:40px 20px; text-align:center; }
+.footer a { color:#d4af37; text-decoration:none; }
+.footer a:hover { text-decoration:underline; }
+
+@media(max-width:768px){ .hero h1 { font-size:36px; } .hero p { font-size:18px; } }
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-overlay">
+    <h1>Dedicated to Life | Cosmetic & General Dentistry Austin</h1>
+    <p>Transform Your Smile with Expert Dental Care and Modern Cosmetic Dentistry</p>
+    <a href="https://dedicatedtolife.nl/" class="cta-button" target="_blank">Visit Our Website</a>
+  </div>
+</section>
+
+<!-- About -->
+<div class="container">
+  <h2>About Dedicated to Life</h2>
+  <p><span class="highlight">Dedicated to Life</span> is a modern, patient-focused dental practice in Austin, Texas. Combining advanced dental technology with a personalized approach, we provide both <strong>general and cosmetic dentistry under one roof</strong>. Whether you are seeking a trusted <strong>Austin cosmetic dentist</strong> or looking for comprehensive restorative dentistry, our team ensures natural, long-lasting results.</p>
+</div>
+
+<!-- Services -->
+<div class="container">
+  <h2>Our Services</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <h3>Smile Makeover Austin</h3>
+      <p>Transform your smile with personalized <strong>smile makeover Austin</strong> solutions. We address discoloration, misalignment, and uneven spacing using modern digital design and mock-up technology.</p>
+    </div>
+    <div class="service-card">
+      <h3>Teeth Whitening Austin</h3>
+      <p>Our professional <strong>teeth whitening clinic Austin TX</strong> delivers noticeable results safely. Achieve a brighter, confident smile with our affordable and effective treatments.</p>
+    </div>
+    <div class="service-card">
+      <h3>Porcelain Veneers & Dental Bonding</h3>
+      <p>Enhance your smile with <strong>porcelain veneers Austin</strong> and <strong>dental bonding Austin TX</strong>, restoring both function and beauty.</p>
+    </div>
+    <div class="service-card">
+      <h3>Dental Crowns & Restorative Dentistry</h3>
+      <p>Protect and strengthen your teeth with <strong>dental crowns Austin</strong>. Our restorative solutions combine durability and aesthetics for long-lasting oral health.</p>
+    </div>
+    <div class="service-card">
+      <h3>Smile Mock-Up & Digital Smile Design</h3>
+      <p>Visualize your ideal smile before treatment with <strong>smile mock-up Austin</strong> technology. Precision planning ensures results that exceed expectations.</p>
+    </div>
+    <div class="service-card">
+      <h3>Concierge Dentistry & Dental Spa</h3>
+      <p>Experience personalized <strong>concierge dentistry Austin TX</strong> in our tranquil <strong>dental spa Austin TX</strong> environment. Our focus on comfort, care, and aesthetics creates a luxurious dental experience.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Why Choose Us -->
+<div class="container">
+  <h2>Why Choose Dedicated to Life</h2>
+  <div class="why-choose-grid">
+    <div class="why-card">
+      <i class="fas fa-user-md"></i>
+      <h3>Experienced Dentists</h3>
+      <p>Our team of highly qualified professionals ensures safe and precise treatments for every patient.</p>
+    </div>
+    <div class="why-card">
+      <i class="fas fa-tooth"></i>
+      <h3>Advanced Technology</h3>
+      <p>We use modern dental technology for accurate diagnostics and effective cosmetic procedures.</p>
+    </div>
+    <div class="why-card">
+      <i class="fas fa-spa"></i>
+      <h3>Dental Spa Experience</h3>
+      <p>Enjoy a relaxing environment with concierge-level care designed for comfort and wellness.</p>
+    </div>
+    <div class="why-card">
+      <i class="fas fa-smile"></i>
+      <h3>Personalized Smile Design</h3>
+      <p>Every treatment is customized to meet your aesthetic goals and lifestyle needs.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Benefits -->
+<div class="container">
+  <h2>Benefits / Results</h2>
+  <div class="benefits-grid">
+    <div class="benefit-card"><p>Natural & Beautiful Smiles</p></div>
+    <div class="benefit-card"><p>Safe & Effective Treatments</p></div>
+    <div class="benefit-card"><p>Comprehensive Care Under One Roof</p></div>
+    <div class="benefit-card"><p>Personalized Treatment Plans</p></div>
+  </div>
+</div>
+
+<!-- Testimonials -->
+<div class="container">
+  <h2>What Our Patients Say</h2>
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <p>"Dedicated to Life transformed my smile and gave me confidence I never had before."</p>
+      <strong>- Sarah, Austin</strong>
+    </div>
+    <div class="testimonial-card">
+      <p>"Professional, caring, and effective. My teeth have never looked better!"</p>
+      <strong>- Michael, Austin</strong>
+    </div>
+    <div class="testimonial-card">
+      <p>"Amazing cosmetic dentistry experience. Highly recommend Dedicated to Life."</p>
+      <strong>- Emily, Austin</strong>
+    </div>
+  </div>
+</div>
+
+<!-- Location -->
+<div class="container">
+  <h2>Our Location</h2>
+  <p>Glint Dental Studio, Austin, TX</p>
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps?q=Glint+Dental+Studio+Austin&t=&z=15&ie=UTF8&iwloc=&output=embed"
+      width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+
+<!-- Call to Action -->
+<div class="cta-section">
+  <h2>Schedule Your Consultation Today</h2>
+  <a href="https://www.google.com/maps/place/Glint+Dental+Studio+Austin/@30.2488772,-97.755692,17z" target="_blank">Book Your Appointment</a>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <p><strong>Dedicated to Life</strong></p>
+  <p>Glint Dental Studio, Austin, TX</p>
+  <p><a href="tel:+13102488772">+1 (310) 248-8772</a></p>
+  <p><a href="https://dedicatedtolife.nl/" target="_blank">https://dedicatedtolife.nl/</a></p>
+</div>
+
+</body>
+</html>
